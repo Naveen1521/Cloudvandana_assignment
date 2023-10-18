@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #fafaeb;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    
+}
+.screen{
+    height: 50px;
+    display: flex;
+    width: 362px;
+    margin: 12px 2px 0px 12px;
+    border-color: black;
+    border-style: solid;
+    flex-grow: 1;
+}
+#numdisplay{    
+	height: 42px;
+    width:300px;
+    text-align: left;
+    padding-top: 7px;
+    font: normal normal 36px Arial;
+}
+#numdisplay span{
+	opacity: 0.5;
+}
+.keypad {
+    width: 360px;
+    height: 256px;
+    border: solid black;
+    border-radius: 0px;
+    margin-left: 11px;
+    padding: 0px;
+}
+input{ 
+	height: 64px;
+    width: 90px;
+    color: white;
+    padding: 4px;
+    background-color: black;
+    border: none;
+	font:  normal 30px Verdana;
+    margin-right: -4px;
+    
+}
+input:hover{
+	background-color: silver;
+}
+
+.specialbuttons{
+    height: 50px;
+    width: 93px;
+   background-color: #34deeb;
+    margin: 0px auto;
+}
+.specialbuttons input{
+    width: 143px;
+    font-size: 20px;
+    
+}
+
+span{
+    padding-left: 5px;
+    color: black;
+}
+
+.sp-btn{
+    background-color: #8c8c87;
+}

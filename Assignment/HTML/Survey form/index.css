@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03a5fc;
+    font-family: Roboto;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.input-style{
+    padding: 7px;
+    margin-top: 5px;
+}
+
+input{
+    margin-right: -20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 40px;
+   
+    flex-wrap: wrap;
+}
+
+.item-1{
+    display: flex;
+    gap: 30px;
+    margin-top: -10px;
+    
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    background-color: #03a5fc;
+    border: none;
+    color: white;
+}

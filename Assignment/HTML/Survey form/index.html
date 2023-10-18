@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css" />
+    
+</head>
+  <body>
+    <div class="container">
+        <h1>Customer Survey Form</h1>
+    <form id ="form"> 
+        
+        <div class="item-1">
+            <div class="name">
+                <label for="name">Name</label>
+                <input  type="text" id="name" required="" />
+            </div>
+            <div class="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" required="" />
+            </div>
+        </div>
+        <p>Is this first time You are using our products & service?</p>
+        <div class="item-1">
+            <div class="item-1">
+                <input type="radio" name="Products" id="productsYes" value="yes" />
+                <p>Yes</p>
+            </div>
+            <div class="item-1">
+                <input type="radio" name = "Products" id="productsNo" value="no" />
+                <p>No</p>
+            </div>
+        </div>
+        <p>Would you suggest to your friends and colleagues?</p>
+        <div class="item-1">
+            <div class="item-1">
+                <input type="radio" name="Suggest" id="suggestYes" value="yes" />
+                <p>Yes</p>
+            </div>
+            <div class="item-1">
+                <input type="radio" name = "Suggest" id="suggestNo" value="no" />
+                <p>No</p>
+            </div>
+        </div>
+        <p>How satisfied are you with our company overall?</p>
+        <div class="item-1">
+            <div class="item-1">
+                <input type="radio" name="satisfied" id="satisfied" value="satisfied" />
+                <p>satisfied</p>
+            </div>
+            <div class="item-1">
+                <input type="radio" name = "satisfied" id="UnDecided" value="UnDecided"/>
+                <p>UnDecided</p>
+            </div>
+            <div class="item-1">
+                <input type="radio" name = "satisfied" id="UnSatisfied" value="UnSatisfied"/>
+                <p>UnSatisfied</p>
+            </div>
+        </div>
+        <p>Do you have suggestion to improve our service?</p>
+        <textarea rows="5" cols="9" id="moreInfo" required=""></textarea>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
